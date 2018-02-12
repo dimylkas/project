@@ -1,0 +1,30 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "install:selenium": "node install.selenium.js",
+    "e2e": "node ./node_modules/.bin/protractor"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimylkas/project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimylkas/project/issues"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.7.0",
+    "cb": "^0.1.0",
+    "chromedriver": "^2.21.2",
+    "http-server": "^0.11.1",
+    "isparta-instrumenter-loader": "^1.0.0",
+    "protractor": "^5.3.0",
+    "selenium-standalone": "^5.1.0"
+  },
+  "homepage": "https://github.com/dimylkas/project#readme"
+}
